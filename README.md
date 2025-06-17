@@ -7,7 +7,7 @@ A GSOC student is doing great work on a tool called "GEGL Filter Browser" but it
 On line 43 of examplecrash.c we see my note. Put simply the crash happens because `part2` was accidentially defined twice when it should be part one. 
 I know this is invalid GEGL code but it shouldn't crash the novel Filter Browser. Out of 150 GEGL plugins of mine only two crash it and they are forks of each other and this was the reason why.
 
-To test this compile the GEGL plugin on any version of GIMP but the official appimage and put it in 
+To test this compile the GEGL plugin on this version of GIMP, https://gitlab.gnome.org/martymichal/gimp/-/commits/wip/martymichal/gegl-filter-browser do not use appimage as it can't read GEGL plugins. 
 
 **Windows**
 
